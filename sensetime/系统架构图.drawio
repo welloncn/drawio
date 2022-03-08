@@ -1,10 +1,10 @@
-<mxfile host="app.diagrams.net" modified="2022-03-08T07:48:19.565Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.102 Safari/537.36" etag="3dki7HxVKw_8hRCnkhMF" version="16.6.7" type="github">
+<mxfile host="app.diagrams.net" modified="2022-03-08T07:51:48.860Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.102 Safari/537.36" etag="tAhrMgrLmizcOQFyAvn8" version="16.6.7" type="github">
   <diagram id="-buse4SnMWgYtJ-Bd-8_" name="第 1 页">
     <mxGraphModel dx="1422" dy="1931" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="0Yolceih9RA4fNprkh5m-1" value="底层封装" style="swimlane;" parent="1" vertex="1">
+        <mxCell id="0Yolceih9RA4fNprkh5m-1" value="底层封装" style="swimlane;fillColor=#e1d5e7;strokeColor=#9673a6;swimlaneFillColor=#E1D5E7;" parent="1" vertex="1">
           <mxGeometry x="40" y="70" width="1210" height="310" as="geometry" />
         </mxCell>
         <mxCell id="0Yolceih9RA4fNprkh5m-2" value="kafka-starter" style="rounded=1;whiteSpace=wrap;html=1;" parent="0Yolceih9RA4fNprkh5m-1" vertex="1">
@@ -76,7 +76,7 @@
         <mxCell id="0Yolceih9RA4fNprkh5m-22" value="cassandra-starter" style="rounded=1;whiteSpace=wrap;html=1;" parent="0Yolceih9RA4fNprkh5m-1" vertex="1">
           <mxGeometry x="819.5" y="70" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="0Yolceih9RA4fNprkh5m-23" value="业务封装" style="swimlane;startSize=23;" parent="1" vertex="1">
+        <mxCell id="0Yolceih9RA4fNprkh5m-23" value="业务封装" style="swimlane;startSize=23;swimlaneFillColor=#DAE8FC;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="1" vertex="1">
           <mxGeometry x="40" y="-290" width="837.34" height="360" as="geometry" />
         </mxCell>
         <mxCell id="0Yolceih9RA4fNprkh5m-24" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="0Yolceih9RA4fNprkh5m-23" source="0Yolceih9RA4fNprkh5m-25" target="0Yolceih9RA4fNprkh5m-30" edge="1">
@@ -109,7 +109,7 @@
         <mxCell id="0Yolceih9RA4fNprkh5m-33" value="business-dict-service&lt;br&gt;业务字典维护&lt;br&gt;业务常量维护&lt;br&gt;业务开关维护" style="shape=ext;double=1;rounded=1;whiteSpace=wrap;html=1;" parent="0Yolceih9RA4fNprkh5m-23" vertex="1">
           <mxGeometry x="600" y="50" width="120" height="290" as="geometry" />
         </mxCell>
-        <mxCell id="0Yolceih9RA4fNprkh5m-34" value="统一对外层" style="swimlane;shadow=0;rounded=0;sketch=0;glass=0;flipV=0;flipH=0;" parent="1" vertex="1">
+        <mxCell id="0Yolceih9RA4fNprkh5m-34" value="统一对外层" style="swimlane;shadow=0;rounded=0;sketch=0;glass=0;flipV=0;flipH=0;fillColor=#ffe6cc;strokeColor=#d79b00;swimlaneFillColor=#FFE6CC;" parent="1" vertex="1">
           <mxGeometry x="40" y="-590" width="1210" height="180" as="geometry" />
         </mxCell>
         <mxCell id="0Yolceih9RA4fNprkh5m-35" value="auth-service&lt;br&gt;认证服务，加密狗，用户，权限，用户部门，用户组织" style="shape=ext;double=1;rounded=1;whiteSpace=wrap;html=1;" parent="0Yolceih9RA4fNprkh5m-34" vertex="1">
@@ -118,7 +118,7 @@
         <mxCell id="0Yolceih9RA4fNprkh5m-36" value="whale-gateway&lt;br&gt;/skyline/common" style="shape=ext;double=1;rounded=1;whiteSpace=wrap;html=1;" parent="0Yolceih9RA4fNprkh5m-34" vertex="1">
           <mxGeometry x="21" y="40" width="1169" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="0Yolceih9RA4fNprkh5m-37" value="业务编排层" style="swimlane;startSize=23;" parent="1" vertex="1">
+        <mxCell id="0Yolceih9RA4fNprkh5m-37" value="业务编排层" style="swimlane;startSize=23;fillColor=#d5e8d4;strokeColor=#82b366;swimlaneFillColor=#D5E8D4;" parent="1" vertex="1">
           <mxGeometry x="40" y="-410" width="1210" height="120" as="geometry" />
         </mxCell>
         <mxCell id="0Yolceih9RA4fNprkh5m-38" value="visual-dashboard-service&lt;br&gt;echarts数据响应&lt;br&gt;大屏展示" style="shape=ext;double=1;rounded=1;whiteSpace=wrap;html=1;" parent="0Yolceih9RA4fNprkh5m-37" vertex="1">
@@ -133,7 +133,7 @@
         <mxCell id="0Yolceih9RA4fNprkh5m-41" value="third-service&lt;br&gt;三方接入服务&lt;br&gt;三方sdk&lt;br&gt;三方文档" style="shape=ext;double=1;rounded=1;whiteSpace=wrap;html=1;" parent="0Yolceih9RA4fNprkh5m-37" vertex="1">
           <mxGeometry x="950" y="30" width="216" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="0Yolceih9RA4fNprkh5m-42" value="支撑服务层" style="swimlane;" parent="1" vertex="1">
+        <mxCell id="0Yolceih9RA4fNprkh5m-42" value="支撑服务层" style="swimlane;fillColor=#f8cecc;strokeColor=#b85450;swimlaneFillColor=#F8CECC;" parent="1" vertex="1">
           <mxGeometry x="877.34" y="-290" width="372.66" height="360" as="geometry" />
         </mxCell>
         <mxCell id="0Yolceih9RA4fNprkh5m-43" value="job-service&lt;br&gt;&lt;br&gt;xxl-job开源分布式job" style="shape=ext;double=1;rounded=1;whiteSpace=wrap;html=1;" parent="0Yolceih9RA4fNprkh5m-42" vertex="1">
