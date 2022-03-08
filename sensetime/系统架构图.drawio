@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-03-08T07:53:16.749Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.102 Safari/537.36" etag="f_xO9qvQPXVRnt5T_PVM" version="16.6.7" type="github">
+<mxfile host="app.diagrams.net" modified="2022-03-08T07:58:48.423Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.102 Safari/537.36" etag="RgpNxjdsbpjHE60iy2sL" version="16.6.7" type="github">
   <diagram id="-buse4SnMWgYtJ-Bd-8_" name="第 1 页">
     <mxGraphModel dx="1422" dy="1931" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -107,7 +107,10 @@
           <mxGeometry x="218.66" y="230" width="120" height="80" as="geometry" />
         </mxCell>
         <mxCell id="0Yolceih9RA4fNprkh5m-33" value="business-dict-service&lt;br&gt;业务字典维护&lt;br&gt;业务常量维护&lt;br&gt;业务开关维护" style="shape=ext;double=1;rounded=1;whiteSpace=wrap;html=1;" parent="0Yolceih9RA4fNprkh5m-23" vertex="1">
-          <mxGeometry x="600" y="50" width="120" height="290" as="geometry" />
+          <mxGeometry x="530" y="50" width="120" height="290" as="geometry" />
+        </mxCell>
+        <mxCell id="JeRY45wLbekOkRNlIhHk-3" value="log-starter&lt;br&gt;日志自动装配&lt;br&gt;统一日志前缀封装&lt;br&gt;统一链路追踪" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="0Yolceih9RA4fNprkh5m-23">
+          <mxGeometry x="690" y="50" width="120" height="290" as="geometry" />
         </mxCell>
         <mxCell id="0Yolceih9RA4fNprkh5m-34" value="统一对外层" style="swimlane;shadow=0;rounded=0;sketch=0;glass=0;flipV=0;flipH=0;fillColor=#ffe6cc;strokeColor=#d79b00;swimlaneFillColor=#FFE6CC;" parent="1" vertex="1">
           <mxGeometry x="40" y="-590" width="1210" height="180" as="geometry" />
